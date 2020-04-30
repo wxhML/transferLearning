@@ -12,7 +12,7 @@ pip install -r requriements.txt
 
 3：运行VGG_Dog_predict.py，进行识别汪星人网络的训练；
    运行VGG_Dog_train.py，加载训练的模型，进行汪星人的识别
-   本模型训练的准确率只有80%多，原因
+   本模型训练的准确率只有80%多，原因如下：
    
    1：修改主干网络：汪星人的识别属于细粒度分类，可以采用其他网络进行分类，例如resnet50，inception等；
    
